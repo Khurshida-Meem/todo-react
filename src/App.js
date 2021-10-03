@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Pending from './components/Pending/Pending';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -14,22 +15,22 @@ function App() {
       <Router>
         <Header></Header>
         <Switch>
-          <Route path='\about'>
+          <Route path='/about'>
             <About></About>
           </Route>
-          <Route path='\pending'>
+          <Route path='/pending'>
             <Pending></Pending>
           </Route>
-          <Route path='\completed'>
+          <Route path='/completed'>
             <Completed></Completed>
           </Route>
-          <Route path='\home'>
+          <Route path='/home'>
             <Home></Home>
           </Route>
-          <Route exact path='\'>
+          <Route exact path='/'>
             <Home></Home>
           </Route>
-          <Route path='*'>
+          <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>
