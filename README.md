@@ -1,6 +1,6 @@
 # ToDo  list 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is live on [live site](https://github.com/facebook/create-react-app).
 
 ## react, react router, react bootstrap
 

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const Pending = () => {
     return (
         <div>
-            i am header
+            <h1>pending task</h1>
         </div>
     );
 };
 
-export default Header;
+export default Pending;
