@@ -1,0 +1,13 @@
+.banner-container {
+    background-color: #232946;
+    padding-top: 10px;
+}
+
+.banner-text h1 {
+    font-size: 50px;
+    color: #fffffe;
+}
+
+.banner-text p {
+    color: #b8c1ec;
+}

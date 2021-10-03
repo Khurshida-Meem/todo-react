@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div >
+    <div className='bg-color'>
       <Router>
         <Header></Header>
         <Switch>

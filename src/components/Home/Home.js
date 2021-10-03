@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
+import Banner from '../Banner/Banner';
 import SingleTodo from '../SingleTodo/SingleTodo';
+import './Home.css'
 
 const Home = () => {
 
@@ -11,12 +14,16 @@ const Home = () => {
     }, [])
     return (
         <div>
-            {
-                todos.map(todo => <SingleTodo
-                    key={todo.id}
-                    todo={todo}
-                ></SingleTodo>)
-            }
+            <Banner></Banner>
+            <Container className='todo-container'>
+                {
+                    todos.map(todo => <SingleTodo
+                        key={todo.id}
+                        todo={todo}
+                    ></SingleTodo>)
+                }
+            </Container>
+
         </div>
     );
 };
