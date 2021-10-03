@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Container } from 'react-bootstrap';
 import { useParams } from 'react-router';
 
 const TodoDetail = () => {
@@ -14,9 +15,11 @@ const TodoDetail = () => {
     console.log(todo);
 
     return (
-        <div>
-            single todo detail
-        </div>
+        <Container>
+            <div className='text-center'>
+
+            </div>
+        </Container>
     );
 };
 
