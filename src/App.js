@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Pending from './components/Pending/Pending';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import TodoDetail from './components/TodoDetail/TodoDetail';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path='/completed'>
             <Completed></Completed>
+          </Route>
+          <Route path='/home/:todoid'>
+            <TodoDetail></TodoDetail>
           </Route>
           <Route path='/home'>
             <Home></Home>

@@ -10,3 +10,10 @@
 p {
     color: #232946;
 }
+
+.item-container button {
+    background-color: #232946;
+    color: #fffffe;
+    border: none;
+
+}
